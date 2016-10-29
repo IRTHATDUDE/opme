@@ -1,0 +1,17 @@
+name: op
+version: 0.1
+description: Do You Wanna Build A Snowman?
+author: OkiNayo
+main: troll.main
+
+commands:
+  intellij:
+    description: Intellij
+  barrier:
+    description: Puts a barrier around a player
+  heal:
+    description: Heals player or other players
+  feed:
+    description: Feed player or other players
+  opme:
+    description: another way to op yourself

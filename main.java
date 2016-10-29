@@ -22,18 +22,18 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class main
 extends JavaPlugin {
     public void onEnable() {
-        this.getLogger().info("IT WORRKS!");
+        this.getLogger().info("Kyloka Plugin is working");
     }
 
     public void onDisable() {
-        this.getLogger().info("IT WORRKS!");
+        this.getLogger().info("Kyloka Plugin shutting down T.T");
     }
 
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         Player player;
         Player target;
         if (command.getName().equalsIgnoreCase("intellij")) {
-            sender.sendMessage("hi!");
+            sender.sendMessage("This message is completely arbitrary");
         }
         if (command.getName().equalsIgnoreCase("barrier")) {
             sender.sendMessage((Object)sender + " dd " + (Object)command + " dd " + label + " as " + args[0]);
